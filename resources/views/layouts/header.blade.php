@@ -54,6 +54,8 @@
                     {{-- <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
                         <small class="fa fa-shopping-bag text-body"></small>
                     </a> --}}
+                    <form method="POST" action="{{ route('logout') }}">
+                    @csrf <button>Logout</button> </form>
                 </div>
             </div>
         </nav>
