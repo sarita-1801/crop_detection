@@ -218,11 +218,11 @@
 <!-- Feature End -->
 
 
-{{-- How planttix works --}}
+{{-- How AgroDetect works --}}
 <div class="container-fluid bg-light bg-icon py-6">
 
  <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <h1 class="display-5 mb-3">How Plantix Works</h1>
+            <h1 class="display-5 mb-3">How AgroDetect Works</h1>
             <p>Empowering farmers with smart tools to detect and manage crop diseases early and efficiently using AI-driven technology.</p>
         </div>
 
@@ -290,7 +290,7 @@
 </div>
 
 Products
-{{-- HOW LANTIX WORKS --}}
+{{-- HOW AgroDetect WORKS --}}
 
 
 
