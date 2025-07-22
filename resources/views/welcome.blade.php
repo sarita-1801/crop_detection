@@ -8,12 +8,11 @@
     <!-- Add any additional CSS or font imports here -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        /* .hero-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('path/to/agriculture-background.jpg');
+        .hero-section {
             background-size: cover;
             background-position: center;
-            min-height: 80vh;
-        } */
+            /* min-height: 80vh; */
+        }
         .btn-primary {
             background-color: #4CAF50;
             border-color: #4CAF50;
@@ -28,8 +27,6 @@
             height: 100vh;
             min-height: 600px;
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{asset('frontend/img/carousel-1.jpg')}}');
-            background-size: cover;
-            background-position: center;
             display: flex;
             align-items: center;
             color: white;

@@ -1,0 +1,74 @@
+/* Register Page Specific Styles */
+.register-container {
+    max-width: 420px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.register-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1a365d;
+    text-align: center;
+    margin-bottom: 1.75rem;
+}
+
+.register-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.register-input:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+}
+
+.register-select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.register-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.register-button:hover {
+    background-color: #3182ce;
+}
+
+.register-link {
+    display: block;
+    text-align: center;
+    color: #4299e1;
+    text-decoration: none;
+    font-size: 0.875rem;
+    margin-top: 1.5rem;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
