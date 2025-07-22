@@ -2,7 +2,7 @@
     @vite(['resources/css/auth/login.css'])
     
     <div class="login-container">
-        <h1 class="login-title">Login to AgriDetect</h1>
+        <h1 class="login-title">Login to AgroDetect</h1>
         
         <form method="POST" action="{{ route('login') }}">
             @csrf

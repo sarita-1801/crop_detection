@@ -2,7 +2,7 @@
     @vite(['resources/css/auth/register.css'])
     
     <div class="register-container">
-        <h1 class="register-title">Join AgriDetect</h1>
+        <h1 class="register-title">Join AgroDetect</h1>
         
         <form method="POST" action="{{ route('register') }}">
             @csrf
