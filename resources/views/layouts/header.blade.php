@@ -9,15 +9,15 @@
     <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
-                <small><i class="fa fa-map-marker-alt me-2"></i>Pokhara,Ranipauwa</small>
-                <small class="ms-4"><i class="fa fa-envelope me-2"></i>shilabushal@gmail.com</small>
+                <small><i class="fa fa-map-marker-alt me-2"></i>Pokhara-11,Ranipauwa</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>shilabushal@gmail.com|sthsarita18@gmail.com</small>
             </div>
             <div class="col-lg-6 px-5 text-end">
                 <small>Follow us:</small>
-                <a class="text-body ms-3" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="text-body ms-3" href=""><i class="fab fa-twitter"></i></a>
-                <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                <a class="text-body ms-3" href=""><i class="fab fa-instagram"></i></a>
+                <a class="text-body ms-3" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a class="text-body ms-3" href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                <a class="text-body ms-3" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="text-body ms-3" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
 
@@ -53,6 +53,9 @@
                             <small class="fa fa-user text-body"></small>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                            <li>
+                                <a class="dropdown-item" href="{{ route('profile.edit') }}">Profile</a>
+                            </li>
                             <li>
                                 <form method="POST" action="{{ route('logout') }}">
                                     @csrf
