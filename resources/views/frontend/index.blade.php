@@ -23,7 +23,7 @@
         <div class="carousel-inner">
              <!-- Slide 1: Disease Detection Focus -->
             <div class="carousel-item active">
-                <img class="w-100 " src="{{asset('frontend/img/carousel-1.jpg')}}" alt="Crop Disease Detection">
+                <img class="w-100 " src="{{asset('frontend/img/carousel.png')}}" alt="Crop Disease Detection">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -38,7 +38,7 @@
             </div>
             <!-- Slide 2: Healthy Crops Focus -->
             <div class="carousel-item">
-                <img class="w-100" src="{{asset('frontend/img/carousel-2.jpg')}}" alt="Healthy Fruits and Vegetables">
+                <img class="w-100" src="{{asset('frontend/img/carousel.png')}}" alt="Healthy Fruits and Vegetables">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-start">
