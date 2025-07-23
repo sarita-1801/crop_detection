@@ -171,13 +171,7 @@
         </section>
 
 
-        {{-- Features ENd --}}
-
-
-
-
-
-
+        {{-- Features End --}}
 
 
    <!-- Feature Start -->
