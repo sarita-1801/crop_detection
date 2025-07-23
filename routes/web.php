@@ -12,35 +12,30 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get("/index",[HomeController::class, 'index'])->name('index');
 
-Route::middleware('auth')->group(function () {
+Route::get('/aboutus', [AboutusController::class, 'index'])->name('aboutus');
+
+Route::get('/product', [ProductController::class, 'index'])->name('product');
+
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+
+Route::get('/blog',[BlogController::class, 'index'])->name('blog');
+
+Route::get('/testimonials',[TestimonialsController::class, 'index'])->name('testimonials');
+
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('/dashboard', function () {
+         return view('dashboard');
+    })->middleware(['auth', 'verified'])->name('dashboard');
+
+    Route::get('/diseasedetail', [ProductDetailController::class, 'index'])->name('diseasedetail');
+
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
-
-
-// Route::get('/index', function () {
-//     return view('frontend.index');
-// });
-
-Route::get("/index",[HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('index');
-
-Route::get('/aboutus', [AboutusController::class, 'index'])->middleware(['auth', 'verified'])->name('aboutus');
-
-Route::get('/product', [ProductController::class, 'index'])->middleware(['auth', 'verified'])->name('product');
-
-Route::get('/contact', [ContactController::class, 'index'])->middleware(['auth', 'verified'])->name('contact');
-
-Route::get('/blog',[BlogController::class, 'index'])->middleware(['auth', 'verified'])->name('blog');
-
-Route::get('/testimonials',[TestimonialsController::class, 'index'])->middleware(['auth', 'verified'])->name('testimonials');
-
-Route::get('/diseasedetail', [ProductDetailController::class, 'index'])->middleware(['auth', 'verified'])->name('diseasedetail');
 
 require __DIR__.'/auth.php';

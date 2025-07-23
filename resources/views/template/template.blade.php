@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Foody - Organic Food Website Template</title>
+    <title>AgroDetect-Helathy Crop Care</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -34,7 +34,7 @@
 
 <body>
 
-    <section id="header">
+  <section id="header">
     @include('layouts.header')
   </section>
 

@@ -1,0 +1,92 @@
+/* Login Page Specific Styles */
+.login-container {
+    max-width: 420px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.login-title {
+    font-size: 1.65rem;
+    font-weight: 650;
+    color: #1a365d;
+    text-align: center;
+    margin-bottom: 1.75rem;
+}
+
+.login-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.login-input:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+}
+
+.login-select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.login-remember {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.login-remember input {
+    margin-right: 0.5rem;
+}
+
+.login-remember label {
+    font-size: 0.875rem;
+    color: #4a5568;
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.login-button:hover {
+    background-color: #3182ce;
+}
+
+.login-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.login-link {
+    color: #4299e1;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
