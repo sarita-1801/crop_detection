@@ -16,31 +16,6 @@
     </div>
     <!-- Page Header End -->
 
-     <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <div class="container">
-            <a class="navbar-brand" href="#">AgroDetect</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Diseases</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Detection</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Solutions</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
-
      <!-- Product Start -->
     <div class="container-xxl py-5 bg-gray-100">
         <div class="container">
@@ -105,54 +80,7 @@
                                     <small class="w-50 text-center py-2">
                                         <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>High Risk</a>
                  
-     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <div class="container">
-            <a class="navbar-brand" href="#">AgriDetect</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Diseases</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Detection</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Solutions</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <div class="container">
-            <a class="navbar-brand" href="#">AgriDetect</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Diseases</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Detection</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Solutions</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    </nav>                   </small>
+       </small>
                                 </div>
                             </div>
                         </div>
@@ -226,30 +154,7 @@
                                     <a class="d-block h5 mb-2" href="">Patoto Disease</a>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, modi?</p>
                  
-     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <div class="container">
-            <a class="navbar-brand" href="#">AgriDetect</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Diseases</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Detection</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Solutions</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>               </div>
+                  </div>
                                 <div class="d-flex border-top">
                                     <small class="w-50 text-center border-end py-2">
                                         <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
