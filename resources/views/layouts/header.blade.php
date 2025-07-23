@@ -29,7 +29,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="{{route('index')}}" class="nav-item nav-link active">Home</a>
+                <a href="{{route('index')}}" class="nav-item nav-link">Home</a>
                 <a href="{{route('aboutus')}}" class="nav-item nav-link">About Us</a>
                 <a href="{{route('product')}}" class="nav-item nav-link">Diseases</a>
                 <div class="nav-item dropdown">
