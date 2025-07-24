@@ -18,7 +18,7 @@
             <select name="user_type" class="register-select">
                 <option value="farmer" selected>Farmer</option>
                 <option value="admin">Admin</option>
-                <option value="expert">Expert</option>
+                
             </select>
             
             <button type="submit" class="register-button">Create Account</button>

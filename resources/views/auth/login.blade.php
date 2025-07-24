@@ -14,7 +14,7 @@
             <select name="user_type" class="login-select">
                 <option value="farmer" selected>Farmer</option>
                 <option value="admin">Admin</option>
-                <option value="expert">Expert</option>
+                
             </select>
             
             <div class="login-remember">

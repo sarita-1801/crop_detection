@@ -28,8 +28,24 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
 
+         /** @var User $user */
+        $user = Auth::user();
+        
+        if ($user) {
+            $user->last_login_at = now();
+            $user->save();
+            
+            if ($user->isAdmin()) {
+                return redirect()->route('admin.dashboard');
+            } 
+            if ($user->isExpert()) {
+                return redirect()->route('expert.dashboard');
+            }
+        }
+
         return redirect()->route('index');
     }
+    
 
     /**
      * Destroy an authenticated session.

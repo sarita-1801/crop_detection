@@ -21,6 +21,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
+        'last_login_at'
     ];
 
     /**
@@ -44,5 +46,29 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+     /**
+     * Check if user is admin
+     */
+    public function isAdmin(): bool
+    {
+        return $this->role === 'admin';
+    }
+
+    /**
+     * Check if user is expert
+     */
+    public function isExpert(): bool
+    {
+        return $this->role === 'expert';
+    }
+
+    /**
+     * Check if user is farmer
+     */
+    public function isFarmer(): bool
+    {
+        return $this->role === 'farmer';
     }
 }
