@@ -11,11 +11,7 @@
             
             <input type="password" name="password" class="login-input" placeholder="Password" required>
             
-            <select name="user_type" class="login-select">
-                <option value="farmer" selected>Farmer</option>
-                <option value="admin">Admin</option>
-                
-            </select>
+           
             
             <div class="login-remember">
                 <input type="checkbox" id="remember" name="remember">

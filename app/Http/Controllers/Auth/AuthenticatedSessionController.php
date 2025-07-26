@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Enums\UserRole;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\LoginRequest;
 use Illuminate\Http\RedirectResponse;
@@ -22,31 +23,21 @@ class AuthenticatedSessionController extends Controller
     /**
      * Handle an incoming authentication request.
      */
-    public function store(LoginRequest $request): RedirectResponse
-    {
-        $request->authenticate();
+public function store(LoginRequest $request): RedirectResponse
+{
+    $request->authenticate();
+    $request->session()->regenerate();
 
-        $request->session()->regenerate();
+    $user = Auth::user();
+    $user->last_login_at = now();
+    $user->save();
 
-         /** @var User $user */
-        $user = Auth::user();
-        
-        if ($user) {
-            $user->last_login_at = now();
-            $user->save();
-            
-            if ($user->isAdmin()) {
-                return redirect()->route('admin.dashboard');
-            } 
-            if ($user->isExpert()) {
-                return redirect()->route('expert.dashboard');
-            }
-        }
-
-        return redirect()->route('index');
+    if ($user->role === UserRole::Admin) {
+        return redirect()->route('admin.dashboard');
     }
-    
 
+    return redirect()->intended(route('dashboard'));
+}
     /**
      * Destroy an authenticated session.
      */

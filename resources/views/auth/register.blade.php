@@ -15,11 +15,7 @@
             
             <input type="password" name="password_confirmation" class="register-input" placeholder="Confirm Password" required>
             
-            <select name="user_type" class="register-select">
-                <option value="farmer" selected>Farmer</option>
-                <option value="admin">Admin</option>
-                
-            </select>
+           
             
             <button type="submit" class="register-button">Create Account</button>
             

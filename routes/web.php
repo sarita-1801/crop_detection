@@ -44,10 +44,15 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
 
 // Admin Routes
-Route::prefix('admin')->middleware(['auth', 'verified', 'role:admin'])->group(function () {
-    Route::get('/dashboard', [AdminController::class, 'index'])->name('admin.dashboard');
-    // Add more admin-specific routes here
+// For regular users
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+// For admin only
+Route::middleware(['auth', 'admin'])->prefix('admin')->group(function () {
+    Route::get('/dashboard', function () {
+        return view('admin.dashboard');
+    })->name('admin.dashboard');
 });
-
-
 require __DIR__.'/auth.php';
